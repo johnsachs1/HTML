@@ -1,0 +1,86 @@
+header {
+    animation-duration: 8s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    font-size:xx-large;
+    text-align: center;
+    font-family: 'Sedgwick Ave', cursive;
+    margin-top: 5%;
+}
+@keyframes slidein {
+    0% {
+        margin-left: 0%;
+      }
+      50% {
+        margin-left: 300px;
+      }
+      100% {
+        margin-left: 0%;
+      }
+    
+}
+.topnav {
+    text-align: center;
+    background-color: rgb(58, 205, 231);
+    font-size: x-large;
+    padding: 14px 16px;
+    
+
+}
+p {
+    font-family: 'Sedgwick Ave', cursive;
+    text-align: center;
+    font-size: xx-large;
+    margin: 3%;
+    
+}
+h1 {
+    color: black;
+    box-sizing: content-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    
+}
+
+a:hover {
+    color: lightblue;
+
+}
+
+li {
+    color: rgb(2, 2, 2);
+    text-shadow: 2px 2px 5px rgb(93, 153, 231);
+    font-family: 'Sedgwick Ave', cursive;
+    font-size: xx-large;
+}
+
+.banner {
+    text-align: center;
+}
+
+.TonyPic {
+    width: 40%;
+    height: 20%;
+    float: right;
+    border-style:dotted;
+    border-radius: 10%;
+    border: black;
+    border-width: medium;
+}
+
+ul {
+    padding: 5%;
+    border-style: dashed;
+
+
+
+}
+.PaddysPic {
+    height: 20%;
+    width: auto;
+    float: right;
+    border-radius: 10%;
+}
+*{
+    margin: 2%;
+}
